@@ -1,0 +1,1303 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.container {
+  max-width: 1512px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 36px;
+}
+
+body {
+  font-family: "Red-Hat-Display", sans-serif;
+  color: #081158;
+}
+
+body.locked {
+  overflow: hidden;
+}
+
+.btn {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  line-height: 18px;
+  background: #081158;
+  padding: 14px 23px;
+  color: #FFFFFF;
+  border-radius: 6px;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn:hover {
+  background: #0a1674;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+nav {
+  overflow: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 7px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.menu__item {
+  margin-left: 40px;
+}
+
+.menu__item:nth-child(4) .menu__item-link {
+  color: #FFFFFF;
+}
+
+.menu__cart {
+  margin-left: 25px;
+  padding-right: 25px;
+  cursor: pointer;
+}
+
+.menu__item-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #081158;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.section__online-fitness {
+  background: #EEF0F4;
+}
+
+.online__fitness {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 90px 0 150px 0;
+  gap: 80px;
+}
+
+.online__fitness-leftside {
+  text-align: center;
+  padding-left: 20px;
+}
+
+.online__fitness-leftside-title {
+  font-family: Permanent Marker;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  letter-spacing: 1px;
+  color: #8EA5A0;
+}
+
+.online__fitness-rightside {
+  max-width: 600px;
+  padding-top: 118px;
+}
+
+.online__fitness-rightside .trainer-name {
+  font-family: "Red-Hat-Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  color: #081158;
+}
+
+.online__fitness-rightside .subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 79px;
+  color: #081158;
+  margin-bottom: 31px;
+  max-width: 552px;
+}
+
+.online__fitness-rightside .text {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  margin-bottom: 25px;
+  max-width: 496px;
+  color: #081158;
+}
+
+.online__fitness-rightside .btn {
+  display: inline-block;
+  padding: 20px 19px 20px 10px;
+  line-height: initial;
+}
+
+.section__intermediate {
+  background: #081158;
+}
+
+.wrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 237px;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #081158;
+  width: 422px;
+  height: 65px;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+  -webkit-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon span {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #DFDFDF;
+}
+
+.wrapper .icon .tooltip {
+  position: absolute;
+  top: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  background-color: #081158;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon .tooltip:before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #081158;
+  bottom: -3px;
+  left: 50%;
+  -webkit-transform: translate(-50%) rotate(45deg);
+      -ms-transform: translate(-50%) rotate(45deg);
+          transform: translate(-50%) rotate(45deg);
+  -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -50px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  padding: 5px 10px;
+  background-color: #3b5999;
+}
+
+.wrapper .icon:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.section_health_journey {
+  background: #FFFFFF;
+}
+
+.health__journey {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding-top: 78px;
+  text-align: center;
+}
+
+.health__journey--title {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 62px;
+  line-height: 70px;
+  max-width: 703px;
+}
+
+.health__journey .btn {
+  margin-top: 26px;
+  padding: 22px 16px;
+}
+
+.health__journey--items {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 100px;
+}
+
+.item {
+  max-width: 400px;
+  margin-bottom: 114px;
+}
+
+.itemm--subtitle {
+  margin: 32px auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 33px;
+  max-width: 331px;
+}
+
+.item--text {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px;
+  max-width: 391px;
+}
+
+.section_home_workout {
+  background: #EEF0F4;
+}
+
+.home__workout {
+  padding: 150px 30px 0 30px;
+  background: #EEF0F4;
+}
+
+.home__workout--subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 86px;
+  line-height: 99px;
+  max-width: 787px;
+}
+
+.home__workout--text {
+  margin: 31px 0 25px 0;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  max-width: 590px;
+}
+
+.home__workout--carts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 150px;
+}
+
+.home__workout--carts-item {
+  display: inline-block;
+  background: #FFFFFF;
+  margin-top: 100px;
+  max-width: 423px;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.home__workout--carts-item:hover {
+  -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.home__workout--carts-item .carts-item-img {
+  padding-bottom: 30px;
+}
+
+.home__workout--carts-item .item__cost-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 30px;
+}
+
+.home__workout--carts-item .item__cost-time .time {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.home__workout--carts-item .item__cost-time .free {
+  font-family: Permanent Marker;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: #EC8675;
+}
+
+.home__workout--carts-item .carts-item-subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  margin: 14px 0;
+}
+
+.home__workout--carts-item .btn__item-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 29px 43px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  color: #081158;
+}
+
+.home__workout--carts-item .btn__item-cart span {
+  -webkit-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.home__workout--carts-item .btn__item-cart span:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.section_home_workout2 {
+  background: #081158;
+}
+
+.home__workout2 {
+  padding-top: 150px;
+  background-image: url("../img/background.png");
+  color: #FFFFFF;
+}
+
+.home__workout2 .home__workout--carts-item .item__cost-time .time {
+  color: #081158;
+}
+
+.home__workout2 .home__workout--carts-item .carts-item-subtitle {
+  color: #081158;
+}
+
+.sweet {
+  background-image: url("../img/sweet_bg.png");
+  height: 560px;
+}
+
+.sweet h3 {
+  padding-top: 234px;
+  font-family: Permanent Marker;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.section__online-fitness2 {
+  background: #FFFFFF;
+}
+
+.online__fitness2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 250px;
+  padding-bottom: 150px;
+}
+
+.online__fitness2 .online__fitness-left {
+  max-width: 534px;
+  padding-left: 36px;
+}
+
+.online__fitness2 .online__fitness-left .subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 70px;
+  max-width: 523px;
+  margin-bottom: 30px;
+}
+
+.online__fitness2 .online__fitness-left .text {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  max-width: 486px;
+  margin-bottom: 25px;
+}
+
+.online__fitness2 .online__fitness-left .btn {
+  padding: 22px 36px;
+}
+
+.online__fitness2 .online__fitness-right {
+  margin: 0;
+  padding-right: 100px;
+}
+
+.section_picture {
+  background: #EEF0F4;
+}
+
+.container .picture {
+  background-image: url("../img/picture.png");
+  height: 764px;
+}
+
+.section_tips {
+  background: #FFFFFF;
+}
+
+.container .tips {
+  padding: 150px 0;
+}
+
+.container .tips--title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 61px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.container .tips--text {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  padding-top: 34px;
+}
+
+.container .tips .btn {
+  display: table;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 25px;
+}
+
+.container .tips__img {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .tips__img--item {
+  max-width: 423px;
+}
+
+.section_pictures {
+  position: relative;
+  background: #EEF0F4;
+  z-index: -2;
+}
+
+.container-pictures .pictures {
+  position: relative;
+  padding-top: 150px;
+  overflow: hidden;
+  height: 1220px;
+  z-index: -2;
+}
+
+.container-pictures .pictures__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 2160px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 400px;
+  left: calc(50% - 1080px + 55.5px);
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.container-pictures .pictures .pictures__images-bottom {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 2160px;
+  height: 400px;
+  left: calc(50% - 1080px - 340px);
+  top: 660px;
+}
+
+.container-pictures .pictures--social {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1440px;
+  height: 275px;
+  left: calc(50% - 720px);
+  top: calc(50% - 137.5px - 0.5px);
+  background: #EC8675;
+  z-index: 1;
+  gap: 78px;
+}
+
+.container-pictures .pictures--social-items {
+  padding-top: 94px;
+}
+
+.container-pictures .pictures--social-items span {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  padding-left: 12px;
+}
+
+.container-pictures .pictures--social-items2 {
+  padding-top: 104px;
+}
+
+.container-pictures .pictures--social-items3 {
+  padding-top: 114px;
+}
+
+.container-pictures .pictures--social-items4 {
+  padding-top: 124px;
+}
+
+footer {
+  background: #081158;
+}
+
+.container .footer {
+  color: #FFFFFF;
+  padding: 100px 20px;
+}
+
+.container .footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .footer__content .img-footer {
+  padding-right: 300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.container .footer__content--contact {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.container .footer__content--contact .diff {
+  padding-bottom: 14px;
+}
+
+.container .footer__content--contact .email-footer {
+  padding: 14px 0 30px 0;
+}
+
+.container .footer__content--contact .email-footer a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.container .footer__content--contact .default {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+
+.container .footer__content--contact-right {
+  padding-left: 50px;
+}
+
+.container .footer-payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 480px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1400px) {
+  .container__home__workout {
+    text-align: center;
+  }
+
+  .home__workout--subtitle {
+    margin: 0 auto;
+  }
+
+  .home__workout--text {
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+  .home__workout--carts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 1320.98px) {
+  .container {
+    max-width: 1320px;
+  }
+
+  .online__fitness {
+    max-width: 1320px;
+    gap: 1%;
+  }
+
+  .online__fitness-leftside {
+    padding: 0 1%;
+  }
+
+  .online__fitness-leftside-title {
+    font-size: 38px;
+  }
+
+  .online__fitness-leftside img {
+    width: 90%;
+  }
+
+  .online__fitness-rightside {
+    text-align: center;
+  }
+
+  .online__fitness-rightside .trainer-name {
+    margin-bottom: 10px;
+  }
+
+  .online__fitness-rightside .subtitle {
+    margin-bottom: 0;
+    max-width: none;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  .online__fitness-rightside .text {
+    max-width: none;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .online__fitness2 .online__fitness-left {
+    padding-left: 0;
+  }
+
+  .online__fitness2 .online__fitness-right {
+    padding-right: 36px;
+  }
+
+  .container .tips__img {
+    padding-top: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 40px;
+  }
+
+  .container .footer__content .img-footer {
+    padding-right: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1320.98px) {
+  .home__workout--carts-item {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1170px) {
+  .online__fitness2 {
+    padding-top: 100px;
+    display: block;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+
+  .online__fitness2 .online__fitness-left {
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  .online__fitness2 .online__fitness-right {
+    padding-top: 100px;
+    padding-right: 0;
+  }
+
+  .online__fitness2 .online__fitness-right img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1099.98px) {
+  .online__fitness {
+    display: block;
+    padding: 40px 0 50px 0;
+  }
+
+  .online__fitness-leftside img {
+    max-width: 600px;
+  }
+
+  .online__fitness-rightside {
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+  .home__workout {
+    padding-top: 50px;
+  }
+
+  .online__fitness2 .online__fitness-left .subtitle {
+    font-size: 44px;
+    line-height: 42px;
+  }
+
+  .online__fitness2 .online__fitness-left .text {
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .container .picture {
+    display: none;
+  }
+
+  .container .tips {
+    padding-top: 0;
+  }
+
+  .container-pictures .pictures--social {
+    height: 500px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .container-pictures .pictures--social-items {
+    padding-top: 0;
+    width: 250px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 970px;
+  }
+
+  .online__fitness-leftside-title {
+    font-size: 38px;
+  }
+
+  .container .footer__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .container .footer__content .img-footer {
+    width: 250px;
+  }
+
+  .container .footer__content--contact-right {
+    padding: 0;
+    width: 344px;
+  }
+
+  .container .footer-payment {
+    padding-top: 50px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .home__workout--subtitle {
+    font-size: 68px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    max-width: 740px;
+  }
+
+  .menu__cart {
+    padding: 0;
+    margin: 0;
+    margin-left: 25px;
+    margin-right: 5px;
+    color: #FFFFFF;
+  }
+
+  .online__fitness {
+    padding: 40px 0 50px 0;
+  }
+
+  .online__fitness-leftside-title {
+    font-size: 28px;
+  }
+
+  .online__fitness-rightside .subtitle {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+
+  .wrapper .icon {
+    width: 90%;
+  }
+
+  .wrapper .icon .tooltip {
+    display: none;
+  }
+
+  .health__journey--title {
+    font-size: 48px;
+    line-height: 50px;
+  }
+
+  .online__fitness2 .online__fitness-left .subtitle {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .online__fitness2 .online__fitness-left .text {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .menu__item {
+    margin-top: 25px;
+  }
+
+  .menu__item {
+    margin-left: 0;
+  }
+
+  .menu__item-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .menu {
+    position: fixed;
+    background: #131418;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+  }
+
+  .menu.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    pointer-events: all;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 22;
+    -webkit-animation: fade 0.1s linear;
+            animation: fade 0.1s linear;
+  }
+
+  .burger {
+    display: block;
+    position: relative;
+    height: 20px;
+    width: 30px;
+    z-index: 102;
+    cursor: pointer;
+  }
+
+  .burger.active-burger:before {
+    background: #FFFFFF;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+    -o-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+    transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+    top: 8px;
+  }
+
+  .burger.active-burger:after {
+    background: #FFFFFF;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 10px;
+    -webkit-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+    -o-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+    transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+  }
+
+  .burger.active-burger span {
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+  }
+
+  .burger:before,
+  .burger:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: "black";
+    -webkit-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+    -o-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+    transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+  }
+
+  .burger:before {
+    top: 0;
+  }
+
+  .burger::after {
+    bottom: 0;
+  }
+
+  .burger span {
+    position: absolute;
+    top: 9px;
+    right: 0;
+    width: 100%;
+    background: "black";
+    height: 2px;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+    -o-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+    transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+  }
+
+  .menu__item-link {
+    color: white;
+  }
+
+  .home__workout--subtitle {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .home__workout--carts-item {
+    max-width: 370px;
+  }
+
+  .home__workout--carts-item .carts-item-img {
+    max-width: 370px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .container {
+    max-width: none;
+    padding: 0 5px;
+  }
+
+  .health__journey--title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .container .tips__img--item {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  .home__workout--carts {
+    margin-top: 50px;
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .home__workout--carts-item {
+    max-width: 300px;
+  }
+
+  .home__workout--carts-item .carts-item-img {
+    max-width: 300px;
+  }
+}
